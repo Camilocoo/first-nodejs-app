@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Camilocoo/first-nodejs-app#readme",
   "dependencies": {
+    "@hapi/joi": "^15.0.3",
     "express": "^4.17.1",
     "nodemon": "^1.19.1"
   }
