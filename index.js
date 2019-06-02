@@ -1,3 +1,4 @@
+const helmet = requite("helmet");
 const express = require("express");
 const Joi = require('@hapi/joi');
 
@@ -6,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 const courses=[
-    {id:1, name:"course 2"},
+    {id:1, name:"course 1"},
     {id:2, name:"course 2"},
     {id:3, name:"course 2"}
 ]
